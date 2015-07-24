@@ -18,6 +18,11 @@ A CRON expression is a string representing the schedule for a particular command
     +------------------------- min (0 - 59)
 
 
+# Download:
+* [Osx](https://github.com/erikccoder/cronLikeLauncher/releases/download/1.0.0/osx_build.zip)
+* [Windows](https://github.com/erikccoder/cronLikeLauncher/releases/download/1.0.0/win_build.zip)
+   * [Dependencies](https://www.microsoft.com/en-hk/download/details.aspx?id=30679)
+
 ## Usage:
 * ./cronLikeLauncher [command] [cron expression]
  

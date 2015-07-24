@@ -1,6 +1,6 @@
-# cron-like-launcher
+# cronExpressionLike Launcher
 
-cron liked syntax / expression launcher.
+cron expressions liked syntax / expression launcher.
 paser is based on [crontab-parser](https://github.com/ben-crowhurst/crontab-parser)
 
 CRON Expressions
@@ -18,8 +18,10 @@ A CRON expression is a string representing the schedule for a particular command
     +------------------------- min (0 - 59)
 
 
+## Usage:
+* ./cronLikeLauncher [command] [cron expression]
+ 
 ## Example:
-
-* ./cronLikeLauncher "echo 123" "* * * * *"
+* ./cronLikeLauncher "echo 123" "* * * * 1" (echo "123" if it's Monday on your system)
 
 

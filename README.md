@@ -11,7 +11,6 @@ A CRON expression is a string representing the schedule for a particular command
     *    *    *    *    *    
     -    -    -    -    -    
     |    |    |    |    |    
-    |    |    |    |    |    
     |    |    |    |    +----- day of week (0 - 7) (Sunday=0 or 7)
     |    |    |    +---------- month (1 - 12)
     |    |    +--------------- day of month (1 - 31)
